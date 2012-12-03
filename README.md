@@ -3,7 +3,7 @@ My git Aliases
 
 
 this go on ~/.gitconfig
-
+`
 [alias]
   c = commit -m
 	s = status
@@ -18,3 +18,4 @@ this go on ~/.gitconfig
 	ss = stash save
 	sc = stash clear
 	sa = stash apply
+	`
