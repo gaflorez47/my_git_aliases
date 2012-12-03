@@ -3,9 +3,11 @@ My git Aliases
 
 
 this go on ~/.gitconfig
-`
+
+
+```bash
 [alias]
-  c = commit -m
+	c = commit -m
 	s = status
 	p = pull --rebase
 	ps = push
@@ -18,4 +20,5 @@ this go on ~/.gitconfig
 	ss = stash save
 	sc = stash clear
 	sa = stash apply
-	`
+
+```
