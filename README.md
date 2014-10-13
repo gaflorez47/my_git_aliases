@@ -37,7 +37,8 @@ if [ -x /usr/bin/dircolors ]; then
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
 fi
-
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
