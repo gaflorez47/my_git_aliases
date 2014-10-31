@@ -25,6 +25,29 @@ My git Aliases
     t = ! branchbrow="https://trello.com/search?q="`git branch | grep '^* ' | cut -c3-` && xdg-open $branchbrow >/dev/null
 ```
 
+`.gitignore`
+
+```
+# Mac OS X hidden files
+.DS_Store
+
+# Vim swap files
+.*.sw?
+
+# Pow and Powder config
+/.pow*
+
+# RVM and rbenv
+/.rvmrc
+/.rbenv-version
+
+# Bundler binstubs
+/bin/
+
+# Rubymine
+```
+
+
 `~/.bash_profile`
 
 ```bash
