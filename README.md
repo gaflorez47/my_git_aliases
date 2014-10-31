@@ -23,8 +23,6 @@ My git Aliases
     sc = stash clear
     sa = stash apply
     t = ! branchbrow="https://trello.com/search?q="`git branch | grep '^* ' | cut -c3-` && xdg-open $branchbrow >/dev/null
-[push]
-	default = simple
 ```
 
 `~/.bash_profile`
@@ -58,5 +56,14 @@ alias copy='xclip -sel clip'
 
 source /usr/share/bash-completion/completions/git
 complete -o default -o nospace -F _git g
+
+```
+
+`Sublime keymap`
+
+```
+[
+	{ "keys": ["ctrl+shift+r"], "command": "reveal_in_side_bar"}
+]
 
 ```
